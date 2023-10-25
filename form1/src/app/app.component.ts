@@ -14,15 +14,15 @@ export class AppComponent {
   {}
   signup()
   {
-    this.router.navigateByUrl('signup/signupcomponent');
+    this.router.navigateByUrl('signupmodule/signupcomponent');
   }
   Login()
   {
-    this.router.navigateByUrl('Login/Logincomponent');
+    this.router.navigateByUrl('loginmodule/Logincomponent');
   }
   signin()
   {
-    this.router.navigateByUrl('signin/signincomponent');
+    this.router.navigateByUrl('signinmodule/signincomponent');
   }
   signup1()
   {

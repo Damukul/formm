@@ -1,2 +1,12 @@
-<p>logincomponent works!</p>
+<p>login form!</p>
+<form [formGroup]="loginform"> 
+
+   <label>Username:</label> <input type="text" formControlName="userName"><br>
+   <br>
+   <label>Email:</label> <input type="mail"><br>
+   <br>
+    <label>password:</label> <input type="password"><br>
+    <br>
+    <button type="submit" (click)="submit()">submit</button><br>
+</form>
 
